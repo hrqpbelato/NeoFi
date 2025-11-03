@@ -7,6 +7,12 @@
     list-style: none;
 }
 
+p {
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
+
 :root {
     /* ************ COLORS ************ */
     --color-green: #9DFF3A;
@@ -27,4 +33,5 @@
     --font-size-caption: 12px;
 
     --font-family-alexandria: "Alexandria", sans-serif;
+    --font-family-inter: "Inter", sans-serif;
 }
