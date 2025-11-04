@@ -11,6 +11,7 @@ header {
     align-items: center;
     gap: 200px;
     padding: 20px 0px;
+    background-color: #000;
 }
 
 .nav-header ul {
@@ -54,6 +55,7 @@ main {
     align-items: center;
     gap: 100px;
     padding: 60px 0px;
+    background-color: #000;
 }
 
 .content-main {
@@ -113,4 +115,24 @@ h1 {
     color: var(--color-white);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-button);
+}
+
+/* ************ PARTNERS ************ */
+.section-partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+}
+
+.section-partners p {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text1);
+}
+
+.container-partners {
+    display: flex;
+    gap: 50px;
 }
