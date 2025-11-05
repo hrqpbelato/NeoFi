@@ -340,3 +340,79 @@ h1 {
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
 }
+
+/* ************ FAQ ************ */
+.section-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+}
+
+.content-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.content-faq .section-indicator {
+    padding: 12px 20px;
+    width: 70px;
+}
+
+.content-faq h2 {
+    width: 855px;
+}
+
+.content-faq p {
+    width: 644px;
+}
+
+.container-faq {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 792px;
+}
+
+.card-faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border: 1px solid var(--color-gray3);
+    cursor: pointer;
+}
+
+.card-faq h3 {
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text1);
+    font-weight: 400;
+}
+
+.expansion-card-faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.minus-faq {
+    width: 15px;
+    height: 1.5px;
+    background-color: var(--color-white);
+    position: absolute;
+}
+
+.plus-faq {
+    width: 1.5px;
+    height: 15px;
+    background-color: var(--color-white);
+    position: absolute;
+}
