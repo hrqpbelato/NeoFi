@@ -510,6 +510,11 @@ h1 {
     color: #000;
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-button);
+    transition: 0.5s;
+}
+
+.btn-revolutionary:hover {
+    opacity: 0.85;
 }
 
 /* ************ FOOTER ************ */
@@ -545,10 +550,23 @@ footer {
     gap: 8px;
 }
 
+.nav-footer ul li {
+    transition: 0.5s;
+}
+
+.nav-footer ul li:hover {
+    transform: translateX(5px);
+}
+
 .nav-footer-item {
     color: var(--color-gray1);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text2);
+    transition: 0.5s;
+}
+
+.nav-footer-item:hover {
+    color: var(--color-green);
 }
 
 .join-footer {
