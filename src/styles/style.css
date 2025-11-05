@@ -416,3 +416,40 @@ h1 {
     background-color: var(--color-white);
     position: absolute;
 }
+
+/* ************ REVOLUTIONARY ************ */
+.section-revolutionary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0px;
+    background-color: #000;
+}
+
+.section-revolutionary .section-indicator {
+    padding: 12px 20px;
+    width: 140px;
+}
+
+.section-revolutionary h2 {
+    width: 878px;
+    text-align: center;
+}
+
+.section-revolutionary p {
+    width: 644px;
+    text-align: center;
+}
+
+.nav-revolutionary {
+    padding: 14px 24px;
+    background-color: var(--color-green);
+}
+
+.btn-revolutionary {
+    color: #000;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-button);
+}
