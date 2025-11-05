@@ -453,3 +453,79 @@ h1 {
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-button);
 }
+
+/* ************ FOOTER ************ */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 126px;
+    padding: 40px 0px;
+    background-color: #000;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 690px;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.links-footer h2 {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
+
+.nav-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-footer-item {
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+}
+
+.join-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid var(--color-gray2);
+}
+
+.join-footer label {
+    width: 198px;
+    color: #D8D8D8;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+}
+
+.email-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+}
+
+.email-footer input {
+    width: 133px;
+    background-color: transparent;
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    outline: none;
+}
+
+.btn-footer {
+    background-color: transparent;
+    cursor: pointer;
+}
