@@ -21,10 +21,23 @@ header {
     gap: 40px;
 }
 
+.nav-header ul li {
+    transition: 0.5s;
+}
+
+.nav-header ul li:hover {
+    transform: scale(1.05);
+}
+
 .nav-header-item {
     color: var(--color-gray1);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
+    transition: 0.5s;
+}
+
+.nav-header-item:hover {
+    color: var(--color-white);
 }
 
 .container-btn-header {
@@ -37,6 +50,13 @@ header {
     color: #fff;
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
+    transition: 0.5s;
+}
+
+.btn-header-login:hover {
+    background-color: var(--color-white);
+    border-radius: 40px;
+    color: #000;
 }
 
 .btn-header-try {
@@ -46,6 +66,11 @@ header {
     color: #000;
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
+    transition: 0.5s;
+}
+
+.btn-header-try:hover {
+    opacity: 0.85;
 }
 
 /* ************ MAIN ************ */
@@ -443,12 +468,9 @@ h1 {
     text-align: center;
 }
 
-.nav-revolutionary {
+.btn-revolutionary {
     padding: 14px 24px;
     background-color: var(--color-green);
-}
-
-.btn-revolutionary {
     color: #000;
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-button);
