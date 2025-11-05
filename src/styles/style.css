@@ -177,6 +177,15 @@ h1 {
     gap: 50px;
 }
 
+.logo-partners {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo-partners:hover {
+    transform: scale(1.05);
+}
+
 /* ************ FEATURES ************ */
 .section-features {
     display: flex;
@@ -224,6 +233,12 @@ h1 {
     border: 1px solid var(--color-gray3);
     border-radius: 12px;
     background-color: #ffffff04;
+    transition: 0.5s;
+}
+
+.card-features:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 1px var(--color-green);
 }
 
 .content-card-features {
