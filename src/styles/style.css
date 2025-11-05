@@ -1,7 +1,7 @@
 @import url("./global.css");
 
 body {
-    background-color: var(--color-gray4);
+    background-color: #000;
 }
 
 /* ************ HEADER ************ */
@@ -11,7 +11,6 @@ header {
     align-items: center;
     gap: 200px;
     padding: 20px 0px;
-    background-color: #000;
 }
 
 .nav-header ul {
@@ -80,7 +79,6 @@ main {
     align-items: center;
     gap: 100px;
     padding: 60px 0px;
-    background-color: #000;
 }
 
 .content-main {
@@ -94,7 +92,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-gray2);
+    border: 1px solid var(--color-gray3);
     border-radius: 24px;
     color: var(--color-green);
     font-family: var(--font-family-alexandria);
@@ -156,6 +154,7 @@ h1 {
     align-items: center;
     gap: 40px;
     padding: 40px 0px;
+    background-color: var(--color-gray4);
 }
 
 .section-partners p {
@@ -176,7 +175,6 @@ h1 {
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
-    background-color: #000;
 }
 
 .content-features {
@@ -213,8 +211,9 @@ h1 {
     align-items: center;
     gap: 36px;
     padding: 40px 30px;
-    border: 1px solid var(--color-gray2);
+    border: 1px solid var(--color-gray3);
     border-radius: 12px;
+    background-color: #ffffff04;
 }
 
 .content-card-features {
@@ -246,6 +245,7 @@ h1 {
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
+    background-color: var(--color-gray4);
 }
 
 .content-statistics {
@@ -300,7 +300,6 @@ h1 {
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
-    background-color: #000;
 }
 
 .content-technologies {
@@ -343,8 +342,9 @@ h1 {
     align-items: center;
     gap: 24px;
     padding: 30px 20px;
-    border: 1px solid var(--color-gray2);
+    border: 1px solid var(--color-gray3);
     border-radius: 20px;
+    background-color: var(--color-gray4);
 }
 
 .content-card-technologies {
@@ -374,6 +374,7 @@ h1 {
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
+    background-color: var(--color-gray4);
 }
 
 .content-faq {
@@ -450,7 +451,6 @@ h1 {
     align-items: center;
     gap: 20px;
     padding: 60px 0px;
-    background-color: #000;
 }
 
 .section-revolutionary .section-indicator {
@@ -483,7 +483,6 @@ footer {
     align-items: center;
     gap: 126px;
     padding: 40px 0px;
-    background-color: #000;
 }
 
 .content-footer {
@@ -521,7 +520,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding-bottom: 10px;
-    border-bottom: 0.5px solid var(--color-gray2);
+    border-bottom: 0.5px solid var(--color-gray3);
 }
 
 .join-footer label {
